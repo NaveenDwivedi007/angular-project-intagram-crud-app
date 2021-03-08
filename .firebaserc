@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "react30-1f30a": {
+      "hosting": {
+        "travelgram": [
+          "react30-1f30a"
+        ]
+      }
+    }
+  }
+}

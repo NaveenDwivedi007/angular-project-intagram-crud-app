@@ -1,0 +1,17 @@
+<div class="card mb-3 horizontal-display">
+    <div class="d-flex justify-content-center align-item-center">
+        <img 
+        [src] = "users.picture"
+        class="rounded-circle ml-2"
+        alt="Img not loading"
+        >
+    </div>
+    <div class="card body">
+        <h5 class="card-title">
+            {{ users.name | uppercase }} 
+        </h5>
+        <p class="card-text">
+            {{ users.bio }}
+        </p>
+    </div>
+</div>
